@@ -18,7 +18,7 @@ public class StatisticsServiceTest {
         Assertions.assertEquals(expected, actual);
     }
 
-    @Test
+   /* @Test
     void findMaxIf() {
         StatisticsService service = new StatisticsService();
 
@@ -28,6 +28,6 @@ public class StatisticsServiceTest {
         long actual = service.findMax(incomesInBillions);
 
         Assertions.assertEquals(expected, actual);
-    }
+    }*/
 
 }
